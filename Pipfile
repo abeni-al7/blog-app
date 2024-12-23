@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 django = "==5.1.4"
+psycopg2-binary = "*"
+dj-database-url = "*"
+whitenoise = {extras = ["brotli"], version = "*"}
+gunicorn = "*"
+uvicorn = "*"
 
 [dev-packages]
 
